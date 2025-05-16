@@ -16,9 +16,14 @@ plugins=(
   )
 source $ZSH/oh-my-zsh.sh
 
+# Environmet Variables 
+source ~/.envvar.sh 
+
+# Functions 
+source ~/.functions.sh 
+
 # alias
-source ~/.aliases
+source ~/.aliases.sh
 
 # Shell Intigrations 
-eval "$(starship init zsh)"
-
+source ~/.zshint.zsh

@@ -6,5 +6,5 @@ stow tmux
 stow nvim
 stow ghostty
 stow alacritty
-stow alias
 stow starship
+stow shell 
