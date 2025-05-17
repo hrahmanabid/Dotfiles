@@ -8,6 +8,9 @@ alias lta='ls -a --tree'
 
 ## Aliases Related to Changing Directories
 alias cdp='cd ..'
+alias cddot=$GHDOT
+alias cdhr=$GHHR
+alias cdhra=$GHHRA
 
 ## Aliases Related to fzf
 
