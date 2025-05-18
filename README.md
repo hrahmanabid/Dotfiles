@@ -27,7 +27,8 @@ Dotfiles includes configuraion for:
 - scripts 
 - fonts 
 
-## Installation 
+## Installation
+### Dependencies 
 For full setup for this dotfiles you need some prerequisites like: 
 - neovim 
 - zsh 
@@ -37,6 +38,13 @@ For full setup for this dotfiles you need some prerequisites like:
 - starship
 - GNU stow 
 - fzf 
+
+### oh-my-zsh
+```sh 
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+
+```
+
 
 You Can install them using your preferred package manager 
 

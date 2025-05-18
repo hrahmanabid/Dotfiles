@@ -14,3 +14,60 @@ source ~/.aliases.sh
 source ~/.zshint.zsh
 
 
+# Path to your Oh My Zsh installation.
+export ZSH="$HOME/.oh-my-zsh"
+
+# oh-my-zsh plugins
+plugins=(git
+  zsh-autosuggesstiions
+  zsh-syntax-highlighting 
+  zsh-completions 
+  fast-syntax-highlighting 
+  zsh-z 
+  python 
+  )
+
+source $ZSH/oh-my-zsh.sh
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
