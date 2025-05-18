@@ -1,10 +1,12 @@
 # System Navigation Aliases
 ## Aliases Related to listing Directories
+
+unalias ls 2>/dev/null
 alias ls=lsd
-alias lt='ls --tree'
-alias lsa='ls -a'
-alias llt='ls -l --tree'
-alias lta='ls -a --tree'
+alias lt='lsd --tree'
+alias lsa='lsd -a'
+alias llt='lsd -l --tree'
+alias lta='lsd -a --tree'
 
 ## Aliases Related to Changing Directories
 alias cdp='cd ..'

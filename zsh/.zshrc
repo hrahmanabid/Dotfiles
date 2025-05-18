@@ -9,6 +9,7 @@ source ~/.functions.sh
 
 # alias
 source ~/.aliases.sh
+alias ls=lsd 
 
 # Shell Intigrations 
 source ~/.zshint.zsh
@@ -50,3 +51,5 @@ done
 
 # Load Oh My Zsh
 source "$ZSH/oh-my-zsh.sh"
+
+alias ls=lsd
