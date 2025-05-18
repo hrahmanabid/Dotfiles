@@ -9,13 +9,33 @@ source ~/.functions.sh
 
 # alias
 source ~/.aliases.sh
-alias ls=lsd 
 
 # Shell Intigrations 
 source ~/.zshint.zsh
+############
+# ~/.zshrc
 
+# Define the install path
+ZSH="$HOME/.oh-my-zsh"
+
+# Check if Oh My Zsh is installed
+if [ ! -d "$ZSH" ]; then
+  echo "Oh My Zsh not found. Installing..."
+  
+  # Run the unattended install
+  RUNZSH=no CHSH=no KEEP_ZSHRC=yes \
+  sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+
+  echo "Oh My Zsh installation completed."
+fi
+
+# Source Oh My Zsh if it's installed
+if [ -f "$ZSH/oh-my-zsh.sh" ]; then
+  source "$ZSH/oh-my-zsh.sh"
+fi
+#############
 # Path to your oh-my-zsh installation
-export ZSH="$HOME/.oh-my-zsh"
+# export ZSH="$HOME/.oh-my-zsh"
 
 # Define Zsh plugin list
 plugins=(
@@ -25,7 +45,6 @@ plugins=(
   zsh-completions
   fast-syntax-highlighting
   zsh-z
-  python
 )
 
 # Define plugin repo map

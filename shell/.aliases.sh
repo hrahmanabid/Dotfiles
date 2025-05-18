@@ -22,3 +22,7 @@ alias e=exit
 
 ## Editor Aliases
 alias v=nvim
+
+## Python Aliases
+py=python3
+pyserver='python3 -m http.server'
