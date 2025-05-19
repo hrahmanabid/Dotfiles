@@ -8,6 +8,17 @@ alias lsa='lsd -a'
 alias llt='lsd -l --tree'
 alias lta='lsd -a --tree'
 
+## Inspecting file content
+alias catn="cat -n"
+alias catb='cat -b'
+
+## Copying
+alias cp="cp -vi"
+alias mv='mv -vi'
+
+## Making Directories
+alias mkdir="mkdir -pv"
+
 ## Aliases Related to Changing Directories
 alias cdp='cd ..'
 alias cddot="cd $GHDOT"
@@ -24,7 +35,3 @@ alias e=exit
 
 ## Editor Aliases
 alias v=nvim
-
-## Python Aliases
-py=python3
-pyserver='python3 -m http.server'
