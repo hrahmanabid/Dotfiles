@@ -13,6 +13,8 @@ alias cdp='cd ..'
 alias cddot="cd $GHDOT"
 alias cdhr="cd $GHHR"
 alias cdhra="cd $GHHRA"
+alias cdgh="cd $GHREPO"
+alias cdgho="cd $GHO"
 
 ## Aliases Related to fzf
 
