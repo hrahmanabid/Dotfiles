@@ -35,3 +35,4 @@ alias e=exit
 
 ## Editor Aliases
 alias v=nvim
+alias b=bat
