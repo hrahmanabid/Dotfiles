@@ -1,0 +1,16 @@
+# Installing zsh 
+sudo dnf install zsh
+
+# Installing oh-my-zsh
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+
+# Installing zsh plugins 
+
+cd ~/.oh-my-zsh/custom/plugins
+
+git clone https://github.com/zsh-users/zsh-autosuggestions.git
+git clone https://github.com/zsh-users/zsh-syntax-highlighting.git
+git clone https://github.com/zsh-users/zsh-completions.git
+git clone https://github.com/zdharma-continuum/fast-syntax-highlighting.git
+git clone https://github.com/agkozak/zsh-z.git
+

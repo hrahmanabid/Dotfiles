@@ -1,0 +1,34 @@
+# Installing Starship 
+# curl -sS https://starship.rs/install.sh | sh
+
+# Initializing starship 
+eval "$(starship init zsh)"
+
+
+# ~/.bashrc
+# echo 'eval "$(starship init bash)"' >> ~/.bashrc
+
+source ~/.zshrc 
+
+# Installing starship presets 
+
+#  jetpack
+# starship preset jetpack -o ~/.config/starship.toml 
+
+# gruvbox-rainbow
+starship preset gruvbox-rainbow -o ~/.config/starship.toml
+
+# tokyo-night
+# starship preset tokyo-night -o ~/.config/starship.toml
+
+# pastel-powerline
+# starship preset pastel-powerline -o ~/.config/starship.toml
+
+# no-runtime-versions
+# starship preset no-runtime-versions -o ~/.config/starship.toml
+
+# bracketed-segments
+# starship preset bracketed-segments -o ~/.config/starship.toml
+
+# nerd-font-symbols
+# starship preset nerd-font-symbols -o ~/.config/starship.toml

@@ -1,0 +1,9 @@
+# Core plugins
+zsh-users/zsh-autosuggestions
+zsh-users/zsh-syntax-highlighting kind:defer
+zsh-users/zsh-history-substring-search kind:defer
+
+# Use Oh‑My‑Zsh subplugins
+getantidote/use-omz
+ohmyzsh/ohmyzsh path:lib
+ohmyzsh/ohmyzsh path:plugins/git
