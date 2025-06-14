@@ -1,7 +1,7 @@
 # System Navigation Aliases
 ## Aliases Related to listing Directories
 
-unalias ls 2>/dev/null
+# unalias ls 2>/dev/null
 alias ls=lsd
 alias lt='lsd --tree'
 alias lsa='lsd -a'

@@ -1,17 +1,5 @@
 # .bashrc
 
-# Environmet Variables
-source ~/.envvar.sh
-
-# Functions
-source ~/.functions.sh
-
-# alias
-source ~/.aliases.sh
-
-# Shell Intigration
-source ~/.bashint.sh
-
 # Source global definitions
 if [ -f /etc/bashrc ]; then
   . /etc/bashrc
@@ -124,6 +112,14 @@ export SCM_CHECK=true
 # Uncomment this to make Bash-it create alias reload.
 # export BASH_IT_RELOAD_LEGACY=1
 
+source ~/.envvar.sh
+source ~/.aliases.sh
+
 # Load Bash It
 source "$BASH_IT"/bash_it.sh
 source ~/.local/share/blesh/ble.sh
+# Shell Intigration fzf
+eval "$(fzf --bash)"
+
+# Shell Intigration starship
+eval "$(starship init bash)"
