@@ -2,7 +2,8 @@
 zsh-users/zsh-autosuggestions
 # zsh-users/zsh-syntax-highlighting kind:defer
 zsh-users/zsh-history-substring-search kind:defer
-zdharma-continuum/fast-syntax-highlighting   
+zdharma-continuum/fast-syntax-highlighting 
+rupa/z
 
 # Use Oh‑My‑Zsh subplugins
 getantidote/use-omz
