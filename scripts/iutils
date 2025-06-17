@@ -17,13 +17,13 @@ echo "*** Installing System Information Fetching Tools..............."
 sudo $pm install fastfetch onefetch cpufetch -y
 
 echo "*** Installing Command line docs Tools........................."
-sudo $pm install tealdeer -y
+sudo $pm install mandoc tealdeer -y
 
 echo "*** Installing File System Navigation Tools...................."
-sudo $pm install bat lsd -y
+sudo $pm install bat lsd yazi -y
 
 echo "*** Installing Command Line Searching Tools....................."
 sudo $pm install fzf grep -y
 
 echo "*** Installing System Monitoring Tools..........................."
-sudo $pm install htop s-tui btop
+sudo $pm install htop btop
